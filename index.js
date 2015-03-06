@@ -13,15 +13,21 @@ marked.setOptions(options);
 
 
 var text = 'I am using __markdown__.\n\n# heading1\n\n## heading2\n\n - item1\n\n1. item1';
+console.log(text);
+
+
+//simply usage
 var html = marked(text);
 console.log(html);
 
 
-var tokens = marked.lexer(text, options);
-console.log(tokens);
-
-
+// step by step usage
 var lexer = new marked.Lexer(options);
 var tokens = lexer.lex(text);
 console.log(tokens);
-console.log("rules: " + lexer.rules);
+html = marked.parser(tokens)
+console.log(html);
+
+
+// rules
+console.log(lexer.rules);
