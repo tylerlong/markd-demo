@@ -5,9 +5,9 @@ Demo for [chjj/marked](https://github.com/chjj/marked).
 
 ## setup
 
-npm install
+`npm install`
 
 
 ## test
 
-node index.js
+`node index.js`
