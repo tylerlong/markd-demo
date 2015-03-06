@@ -1,7 +1,7 @@
 {
-  "name": "markd-demo",
+  "name": "marked-demo",
   "version": "1.0.0",
-  "description": "Demo for markd markdown parser",
+  "description": "Demo for marked markdown parser",
   "main": "index.js",
   "dependencies": {
     "marked": "*"
@@ -12,17 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:tylerlong/markd-demo.git"
+    "url": "git@github.com:tylerlong/marked-demo.git"
   },
   "keywords": [
     "markdown",
-    "markd",
+    "marked",
     "demo"
   ],
   "author": "Tyler Long <tyler4long@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tylerlong/markd-demo/issues"
+    "url": "https://github.com/tylerlong/marked-demo/issues"
   },
-  "homepage": "https://github.com/tylerlong/markd-demo"
+  "homepage": "https://github.com/tylerlong/marked-demo"
 }

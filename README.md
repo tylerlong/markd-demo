@@ -1,4 +1,4 @@
-# markd-demo
+# marked-demo
 
 Demo for [chjj/marked](https://github.com/chjj/marked).
 
