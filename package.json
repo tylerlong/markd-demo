@@ -1,0 +1,28 @@
+{
+  "name": "markd-demo",
+  "version": "1.0.0",
+  "description": "Demo for markd markdown parser",
+  "main": "index.js",
+  "dependencies": {
+    "marked": "^0.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tylerlong/markd-demo.git"
+  },
+  "keywords": [
+    "markdown",
+    "markd",
+    "demo"
+  ],
+  "author": "Tyler Long <tyler4long@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tylerlong/markd-demo/issues"
+  },
+  "homepage": "https://github.com/tylerlong/markd-demo"
+}
